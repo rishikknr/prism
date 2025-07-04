@@ -1,0 +1,17 @@
+# Top 3 Pain Points in India's Retail Supply Chain (Walmart Sparkathon - PRISM)
+
+## 1. Last-Mile Delivery Inefficiencies
+- **Summary**: Last-mile delivery in India is plagued by high operational costs, frequent delays due to traffic and remote locations, security concerns leading to theft and fraud, and a lack of real-time visibility and efficient route planning. Reverse logistics also adds significant complexity and cost.
+- **Why it’s critical**: This directly impacts customer satisfaction and profitability. High costs and delays lead to customer attrition and reduced trust. The environmental impact from fossil fuel vehicles also poses a sustainability challenge. The sheer volume of e-commerce transactions in India makes these inefficiencies a massive bottleneck.
+- **Opportunity**: Significant innovation is possible in route optimization (AI/ML-driven dynamic routing), real-time tracking and communication platforms, secure delivery solutions (e.g., smart lockers, verified delivery protocols), and adoption of sustainable delivery methods (EVs, drones) once cost-effective. Addressing these issues can lead to substantial cost savings, improved customer experience, and a greener supply chain.
+
+## 2. Stockouts and Overstocking in Tier 2/3 India
+- **Summary**: Fragmentation in retail systems, particularly in India's Tier 2 and Tier 3 cities, leads to significant inventory distortion, resulting in simultaneous stockouts in high-demand areas and overstocking in low-demand ones. This is exacerbated by poor supply chain coordination, seasonal imbalances, and reliance on outdated inventory management systems.
+- **Why it’s critical**: Inventory distortion costs Indian retailers an estimated ₹60,000 crore annually. It leads to lost sales, wasted products, and brand damage due to unfulfilled orders. In hyper-competitive markets, the inability to meet demand or manage excess inventory effectively directly impacts revenue and market share.
+- **Opportunity**: There's a strong opportunity for scalable ERP software solutions tailored for Tier 2/3 retailers, focusing on real-time inventory visibility, automated replenishment, and integrated demand forecasting. Innovations in predictive analytics and AI-driven inventory management can significantly reduce these losses, optimize stock levels, and improve overall supply chain responsiveness.
+
+## 3. Cold Chain Inefficiency and Food Wastage
+- **Summary**: India faces massive food loss (30-40% of fruits/vegetables, up to 16% of marine products) due to a fragile cold chain system characterized by outdated infrastructure, energy inefficiency, fragmented logistics, and inconsistent safety protocols. Regional disparities in cold storage capacity and a lack of flexibility in operations further contribute to spoilage.
+- **Why it’s critical**: This problem leads to enormous economic losses (estimated Rs 1.5 lakh crore annually), impacts farmer incomes, and undermines national food security. The environmental cost of spoilage and energy-intensive, unsustainable cold chain practices is also significant.
+- **Opportunity**: Innovation is crucial in developing energy-efficient and sustainable cold chain solutions (e.g., solar-powered cold rooms, electric reefer trucks), improving real-time temperature monitoring and tracking (IoT sensors), and creating integrated, flexible logistics platforms that can adapt to disruptions. Decentralized cold storage solutions and better last-mile cold chain connectivity present significant opportunities for reducing waste and increasing profitability.
+

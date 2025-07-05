@@ -1,0 +1,199 @@
+{
+  "demo_date": "2025-07-05T00:41:10.825011",
+  "scenarios_tested": [
+    "red_sea_crisis",
+    "supplier_failure",
+    "multi_agent_simulation",
+    "anomaly_detection"
+  ],
+  "key_findings": {
+    "red_sea_crisis": {
+      "scenario": {
+        "supplier_reliability": 0.6,
+        "transport_capacity": 0.4,
+        "inventory_level": 0.3,
+        "demand_volatility": 0.7,
+        "geopolitical_risk": 0.9,
+        "weather_risk": 0.2
+      },
+      "explanation": {
+        "predicted_risk_score": 66.24,
+        "risk_level": "High",
+        "key_factors": [
+          {
+            "factor": "Supplier Reliability",
+            "value": 0.6,
+            "impact": "High",
+            "description": "Low supplier reliability significantly increases supply chain risk"
+          },
+          {
+            "factor": "Transport Capacity",
+            "value": 0.4,
+            "impact": "Medium",
+            "description": "Limited transport capacity may cause delivery delays"
+          },
+          {
+            "factor": "Geopolitical Risk",
+            "value": 0.9,
+            "impact": "High",
+            "description": "High geopolitical tensions may disrupt supply routes"
+          }
+        ],
+        "recommendations": [
+          {
+            "action": "Diversify Supplier Base",
+            "priority": "High",
+            "timeframe": "1-2 weeks",
+            "description": "Identify and onboard alternative suppliers to reduce dependency",
+            "expected_impact": "Reduce risk by 15-20%"
+          },
+          {
+            "action": "Secure Additional Transport",
+            "priority": "Medium",
+            "timeframe": "1 week",
+            "description": "Contract additional transport capacity or alternative routes",
+            "expected_impact": "Improve delivery reliability by 20%"
+          },
+          {
+            "action": "Route Diversification",
+            "priority": "High",
+            "timeframe": "2-3 weeks",
+            "description": "Establish alternative supply routes to avoid high-risk regions",
+            "expected_impact": "Reduce geopolitical exposure by 40%"
+          }
+        ],
+        "feature_contributions": {
+          "supplier_reliability": 12.74,
+          "transport_capacity": 10.66,
+          "inventory_level": 19.5,
+          "demand_volatility": 4.98,
+          "geopolitical_risk": 9.75,
+          "weather_risk": 0.92
+        },
+        "confidence": 0.9
+      },
+      "what_if_analysis": {
+        "base_scenario": {
+          "supplier_reliability": 0.6,
+          "transport_capacity": 0.4,
+          "inventory_level": 0.3,
+          "demand_volatility": 0.7,
+          "geopolitical_risk": 0.9,
+          "weather_risk": 0.2
+        },
+        "base_risk_score": 66.24,
+        "scenarios": [
+          {
+            "scenario": "transport_capacity = 0.5",
+            "risk_score": 65.68,
+            "risk_level": "High",
+            "change_from_base": -0.56
+          },
+          {
+            "scenario": "transport_capacity = 0.7",
+            "risk_score": 60.56,
+            "risk_level": "High",
+            "change_from_base": -5.67
+          },
+          {
+            "scenario": "transport_capacity = 0.9",
+            "risk_score": 58.7,
+            "risk_level": "Medium",
+            "change_from_base": -7.54
+          },
+          {
+            "scenario": "supplier_reliability = 0.7",
+            "risk_score": 63.94,
+            "risk_level": "High",
+            "change_from_base": -2.3
+          },
+          {
+            "scenario": "supplier_reliability = 0.8",
+            "risk_score": 61.91,
+            "risk_level": "High",
+            "change_from_base": -4.32
+          },
+          {
+            "scenario": "supplier_reliability = 0.9",
+            "risk_score": 55.84,
+            "risk_level": "Medium",
+            "change_from_base": -10.39
+          }
+        ]
+      }
+    },
+    "supplier_failure": {
+      "disrupted_node": "DC_0",
+      "impacted_nodes": [
+        "PROD_0",
+        "PROD_4",
+        "PROD_2",
+        "PROD_1",
+        "PROD_3"
+      ],
+      "mitigation_strategies": [
+        {
+          "strategy": "Activate Backup Suppliers",
+          "timeframe": "24-48 hours",
+          "cost": "$800K",
+          "effectiveness": "85%",
+          "description": "Immediately activate pre-qualified backup suppliers for affected products"
+        },
+        {
+          "strategy": "Emergency Inventory Redistribution",
+          "timeframe": "12-24 hours",
+          "cost": "$200K",
+          "effectiveness": "60%",
+          "description": "Redistribute inventory from low-risk to high-risk regions"
+        },
+        {
+          "strategy": "Expedited Shipping",
+          "timeframe": "48-72 hours",
+          "cost": "$1.2M",
+          "effectiveness": "90%",
+          "description": "Use expedited shipping to maintain service levels"
+        }
+      ]
+    },
+    "multi_agent_simulation": {
+      "avg_service_level": 0.5729170091326167,
+      "total_stockouts": 10237.501387732984,
+      "disruption_impact": 0.40750311115004734,
+      "critical_periods": [
+        7,
+        8,
+        13,
+        14,
+        25,
+        29,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        46,
+        50
+      ]
+    },
+    "anomaly_detection": {
+      "cost_anomalies": 110,
+      "supplier_anomalies": 9,
+      "affected_products": {
+        "PROD_8": 15,
+        "PROD_0": 15,
+        "PROD_9": 14
+      },
+      "affected_dcs": {
+        "DC_1": 9
+      }
+    }
+  },
+  "business_impact": {
+    "cost_savings": "$8-12M annually",
+    "service_improvement": "15-25%",
+    "response_time": "Hours to minutes"
+  }
+}

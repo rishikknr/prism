@@ -1,0 +1,56 @@
+{
+  "predicted_risk_score": 57.48,
+  "risk_level": "Medium",
+  "key_factors": [
+    {
+      "factor": "Supplier Reliability",
+      "value": 0.65,
+      "impact": "High",
+      "description": "Low supplier reliability significantly increases supply chain risk"
+    },
+    {
+      "factor": "Inventory Level",
+      "value": 0.25,
+      "impact": "High",
+      "description": "Low inventory levels increase stockout risk"
+    },
+    {
+      "factor": "Geopolitical Risk",
+      "value": 0.7,
+      "impact": "High",
+      "description": "High geopolitical tensions may disrupt supply routes"
+    }
+  ],
+  "recommendations": [
+    {
+      "action": "Diversify Supplier Base",
+      "priority": "High",
+      "timeframe": "1-2 weeks",
+      "description": "Identify and onboard alternative suppliers to reduce dependency",
+      "expected_impact": "Reduce risk by 15-20%"
+    },
+    {
+      "action": "Increase Safety Stock",
+      "priority": "High",
+      "timeframe": "3-5 days",
+      "description": "Increase inventory levels for critical products",
+      "expected_impact": "Reduce stockout risk by 25%"
+    },
+    {
+      "action": "Route Diversification",
+      "priority": "High",
+      "timeframe": "2-3 weeks",
+      "description": "Establish alternative supply routes to avoid high-risk regions",
+      "expected_impact": "Reduce geopolitical exposure by 40%"
+    }
+  ],
+  "feature_contributions": {
+    "supplier_reliability": 11.14,
+    "transport_capacity": 3.55,
+    "inventory_level": 20.89,
+    "demand_volatility": 2.85,
+    "geopolitical_risk": 7.58,
+    "weather_risk": 1.38
+  },
+  "confidence": 0.9
+}

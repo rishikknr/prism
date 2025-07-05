@@ -23,10 +23,7 @@ Walmart leverages its Element AI platform for advanced predictive analytics, ano
 
 While Walmart's solutions are highly advanced, they are insufficient for several reasons:
 
-*   **Unpredictable Novelty:** Major global disruptions often present novel scenarios not adequately represented in historical training data. AI models, by nature, struggle with true novelty and 
-
-
-extrapolation to entirely new situations.
+*   **Unpredictable Novelty:** Major global disruptions often present novel scenarios not adequately represented in historical training data. AI models, by nature, struggle with true novelty and extrapolation to entirely new situations.
 *   **Cascading Effects Complexity:** Predicting and mitigating the full cascading effects of a disruption across a multi-tiered, global supply chain with millions of interdependencies is computationally intractable and often beyond the scope of current simulation models. A small disruption can have disproportionate impacts due to network effects.
 *   **Data Lag and Granularity:** While real-time data is collected, the sheer volume and velocity of data from global events, combined with potential data silos or inconsistencies from external partners, can lead to lags in actionable insights. Furthermore, the granularity of data needed to predict highly localized impacts of global events might not always be available or integrated.
 *   **Human Factor and Decision Fatigue:** Even with AI recommendations, human decision-makers face immense pressure during crises. Over-reliance on AI without proper human-AI collaboration frameworks can lead to missed opportunities or errors if the AI's recommendations are not fully understood or trusted.

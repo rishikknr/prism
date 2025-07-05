@@ -245,7 +245,7 @@ Special thanks to the Walmart India supply chain team for domain expertise and r
 
 This project is developed as a proof-of-concept for Walmart India's supply chain resilience initiative. All code and documentation are proprietary and confidential.
 
-**Copyright © 2025 Manus AI. All rights reserved.**
+**Copyright © 2025 Prism. All rights reserved.**
 
 ---
 
